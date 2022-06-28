@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* Top Section */
@@ -17,13 +19,13 @@ body {
 .callout {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .callout h1 {
     color: lightblue;
-    font-size: 800%;
+    font-size: 700%;
     line-height: 1.4;
 }
 
@@ -37,6 +39,7 @@ body {
 }
 
 .mainNav {
+  width: 100%;
   padding: 2rem;
 }
 
@@ -45,6 +48,10 @@ body {
   font-size: 2rem;
   font-weight: bold;
   color: lightblue;
+}
+
+.navBarLinks {
+  float: inline-end
 }
 
 .navLink {
@@ -59,3 +66,47 @@ body {
 }
 
 
+/* Main Sections */
+
+.mainText {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+main h2 {
+  text-transform: uppercase; 
+  text-align: center;
+  font-size: 200%;
+}
+
+#portfolio {
+  padding: 2rem;
+  background-color: lightpink;
+  border-top: solid 1rem black;
+  border-bottom: solid 1rem black;
+}
+
+.portfolioContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: pink;
+}
+
+.portfolioCol {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  border: solid 0.4rem red;
+  border-radius: 1rem;
+}
+
+
+/* Footer */
+
+.mainFooter {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}

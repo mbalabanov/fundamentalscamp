@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top Section */
+
+.heroSection {
+  background-color: teal;
+  border-top: solid 1rem black;
+  border-bottom: solid 1rem black;
+}
+
+.callout {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.callout h1 {
+    color: lightblue;
+    font-size: 800%;
+}
+
+.mainNav {
+  padding: 2rem;
+}
+
+.siteTitle {
+  padding: 1rem 1rem 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: lightblue;
+}
+
+.navLink {
+    padding: 1rem;
+    background-color: lightblue;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: teal;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+

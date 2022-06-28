@@ -148,3 +148,45 @@ main h3 {
   color: white;
   padding: 1em;
 }
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+  .callout {
+    width: 90%;
+  }
+
+  .callout h1 {
+    font-size: 400%;
+    text-align: center;
+  }
+
+  .siteTitle {
+    text-align: center;
+    height: 2em;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .navBarLinks {
+    text-align: center;
+    height: 2em;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mainText {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.6em;
+  }
+
+  .portfolioContainer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+}

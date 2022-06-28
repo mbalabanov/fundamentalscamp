@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -12,14 +12,14 @@ body {
 
 .heroSection {
   background-color: teal;
-  border-top: solid 1rem black;
-  border-bottom: solid 1rem black;
+  border-top: solid 1em black;
+  border-bottom: solid 1em black;
   width: 100%;
 }
 
 .callout {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 4em;
+    padding-bottom: 4em;
     width: 50%;
     margin: 0 auto;
 }
@@ -39,17 +39,21 @@ body {
   color: black;
 }
 
+.callout p em {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
 .mainNav {
   width: 100%;
 }
 
 .navContents {
-  padding: 2rem;
+  padding: 2em;
 }
 
 .siteTitle {
-  padding: 1rem 1rem 1rem 0;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bold;
   color: lightblue;
 }
@@ -59,24 +63,24 @@ body {
 }
 
 .navLink {
-    padding: 1rem;
+    padding: 1em;
     background-color: lightblue;
-    border-radius: 0.4rem;
+    border-radius: 0.4em;
     font-weight: bold;
     text-decoration: none;
     color: teal;
-    margin-left: 1rem;
+    margin-left: 1em;
 }
 
 
 /* Main Sections */
 
 .mainText {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 4em;
+  padding-bottom: 4em;
   width: 50%;
   margin: 0 auto;
-  line-height: 1.6rem;
+  line-height: 1.6em;
 }
 
 main h2 {
@@ -90,10 +94,10 @@ main h3 {
 }
 
 #portfolio {
-  padding: 2rem;
+  padding: 2em;
   background-color: lightpink;
-  border-top: solid 1rem black;
-  border-bottom: solid 1rem black;
+  border-top: solid 1em black;
+  border-bottom: solid 1em black;
 }
 
 .skillsContainer {
@@ -107,11 +111,31 @@ main h3 {
 }
 
 .portfolioCol {
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1em;
+  margin: 1em;
   background-color: white;
-  border: solid 0.4rem red;
-  border-radius: 1rem;
+  border: solid 0.4em red;
+  border-radius: 1em;
+}
+
+.readMore {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.4em;
+  display: inline-block;
+  width: 100%;
+  background-color: red;
+  border-radius: 0.4em;
+}
+
+.gitLink {
+  text-align: center;
+  line-height: 2.4em;
+  display: inline-block;
+  width: 100%;
+  font-size: small;
 }
 
 
@@ -120,5 +144,5 @@ main h3 {
 .mainFooter {
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 1em;
 }

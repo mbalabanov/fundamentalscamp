@@ -56,10 +56,12 @@ body {
   font-size: 2em;
   font-weight: bold;
   color: lightblue;
+  display: inline-block;
 }
 
 .navBarLinks {
   float: right;
+  margin-top: 1em;
 }
 
 .navLink {

@@ -24,6 +24,16 @@ body {
 .callout h1 {
     color: lightblue;
     font-size: 800%;
+    line-height: 1.4;
+}
+
+.callout p {
+  color: lightblue;
+  line-height: 2;
+}
+
+.callout p strong {
+  color: black;
 }
 
 .mainNav {
